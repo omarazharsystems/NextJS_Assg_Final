@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "GITHUB_CLIENT_ID=your-temporary-value && next build && GITHUB_CLIENT_ID= unset && next start",
+    "build": "next build",
  
     "start": "next start",
     "lint": "next lint",
