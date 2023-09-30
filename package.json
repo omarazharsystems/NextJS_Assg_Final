@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "GITHUB_CLIENT_ID=your-temporary-value && next build && GITHUB_CLIENT_ID= unset && next start",
+ 
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
