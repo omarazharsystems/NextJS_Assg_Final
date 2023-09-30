@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Hero = () => {
   return (
     <div className="md:px-18 md:py-28 py-14 px-2 text-center">
